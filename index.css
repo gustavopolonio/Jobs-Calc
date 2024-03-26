@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inicio-projeto {
+  background-color: #41414c;
+  height: 250px;
+}
+.cabeçalho-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.imagem-calculadora {
+  padding-right: 20px;
+}
+.legenda-cabeçalho {
+  color: #ffff;
+}
+.informaçoes-jaqueline {
+  display: flex;
+}
+.titulo-separado {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #ffff;
+}
+.cabeçalho-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+.numeros {
+  display: flex;
+  gap: 50px;
+}
+.coluna-numero {
+  display: flex;
+  flex-direction: column;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #ffff;
+}
+.paragrafo-numero {
+  color: #bfbfcc;
+  font-size: 15px;
+}
+.botao-job {
+  background-color: #f1972c;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: bold;
+  margin-right: 40px;
+  padding: 14px;
+  border: solid 1px #ffff;
+  border-radius: 6px;
+}
+.mais {
+  font-size: 25px;
+  font-weight: 600;
+  border: solid 1px #ffff;
+  padding: 6px 6px;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+table {
+  background-color: #f1f1f3;
+  border-collapse: separate;
+  border-spacing: 0 16px;
+  display: flex;
+  justify-content: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+tbody {
+  margin-top: -30px;
+}
+tr {
+  background-color: #ffff;
+}
+.numero {
+  color: #bfbfcc;
+  padding: 35px 32px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.local {
+  color: rgb(95, 95, 95);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 30px 70px;
+}
+.dias {
+  color: #787880;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 46px 30px;
+}
+.valor {
+  color: #787880;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 46px 60px;
+}
+.tempo {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 35px 60px;
+}
+.formato {
+  border-radius: 40px;
+  padding: 8px 24px;
+}
+.verde {
+  color: #36b236;
+  background-color: #ebf8e8;
+}
+.vermelho {
+  color: #eb3b35;
+  background-color: #faeceb;
+}
+.itens-tabela {
+  padding: 0 10px;
+  width: 50px;
+}
