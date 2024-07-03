@@ -9,22 +9,41 @@
   background-color: #41414c;
   height: 250px;
 }
+
+.div-de-separacao-inicio {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
 .cabeçalho-1 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 30px;
 }
 
 .imagem-calculadora {
   padding-right: 20px;
 }
-.legenda-cabeçalho {
-  color: #ffff;
+
+.div-do-icone {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
 }
+
+.paragrafo-do-icone {
+  color: #fcfdff;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+}
+
 .informaçoes-jaqueline {
   display: flex;
 }
+
 .titulo-separado {
   display: flex;
   flex-direction: column;
@@ -32,47 +51,80 @@
   font-family: "IBM Plex Sans", sans-serif;
   color: #ffff;
 }
+
+.legenda-perfil {
+  margin-left: 40px;
+}
+
+.linha-separacao {
+  color: #4f4f5b;
+}
+
+hr {
+  margin: 20px 0px;
+}
+
 .cabeçalho-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 80px;
-  margin-top: 60px;
+
+  margin-top: 30px;
 }
+
 .numeros {
   display: flex;
   gap: 50px;
 }
+
 .coluna-numero {
   display: flex;
   flex-direction: column;
   font-family: "IBM Plex Sans", sans-serif;
   color: #ffff;
 }
+
 .paragrafo-numero {
   color: #bfbfcc;
   font-size: 15px;
 }
+
 .botao-job {
   background-color: #f1972c;
   font-family: "IBM Plex Sans", sans-serif;
   text-transform: uppercase;
   color: #ffff;
   font-weight: bold;
-  margin-right: 40px;
   padding: 14px;
   border: solid 1px #ffff;
   border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 16pxpx;
 }
+
+.link-separado {
+  color: #fcfddf;
+  text-decoration: none;
+}
+
+.corpo-site {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
 .mais {
   font-size: 25px;
   font-weight: 600;
   border: solid 1px #ffff;
-  padding: 6px 6px;
+  padding: 0px 8px;
   border-radius: 5px;
   margin-right: 16px;
 }
+
 table {
+  width: 100%;
   background-color: #f1f1f3;
   border-collapse: separate;
   border-spacing: 0 16px;
@@ -80,54 +132,95 @@ table {
   justify-content: center;
   font-family: "IBM Plex Sans", sans-serif;
 }
+
 tbody {
+  width: 100%;
   margin-top: -30px;
 }
+
 tr {
   background-color: #ffff;
+  width: 100%;
+  display: table;
+  margin: 20px 0px;
 }
+
 .numero {
   color: #bfbfcc;
   padding: 35px 32px;
   font-size: 14px;
   font-weight: 600;
 }
+
 .local {
   color: rgb(95, 95, 95);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   padding: 30px 70px;
 }
-.dias {
-  color: #787880;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 46px 30px;
+
+.entrega {
+  margin: 40px 30px;
 }
-.valor {
-  color: #787880;
+
+.prazo-valor {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #bfbfcc;
   font-weight: 600;
-  font-size: 14px;
-  padding: 46px 60px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
+
+.frase-dinheiro {
+  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #787880;
+  font-size: 16px;
+}
+
+.preco {
+}
+
+.ponto-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .tempo {
   font-size: 12px;
   font-weight: 500;
   padding: 35px 60px;
 }
+
 .formato {
-  border-radius: 40px;
+  border-radius: 30px;
   padding: 8px 24px;
 }
+
 .verde {
   color: #36b236;
   background-color: #ebf8e8;
+  text-align: center;
+  font-size: 14px;
 }
+
 .vermelho {
   color: #eb3b35;
   background-color: #faeceb;
+  text-align: center;
+  font-size: 14px;
 }
+
+.icones-tabela {
+  padding: 0 20px;
+}
+
+button {
+  background-color: transparent;
+  border-color: #e1e3e5;
+}
+
 .itens-tabela {
-  padding: 0 10px;
-  width: 50px;
+  width: 30px;
 }

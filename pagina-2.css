@@ -11,6 +11,8 @@ body {
 header {
   background-color: #41414c;
   padding: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 .seta {
   width: 18px;
@@ -28,6 +30,8 @@ header {
 main {
   display: flex;
   margin-bottom: 70px;
+  width: 100%;
+  align-items: center;
 }
 .info-cliente {
   margin: 70px 0px 0px 161px;
@@ -35,13 +39,15 @@ main {
   flex-direction: column;
   justify-content: center;
   border: solid 2px #e1e3e5;
-  width: 350px;
-  height: 500px;
+  width: 352px;
+  height: 556px;
   align-items: center;
   border-radius: 5px;
+  background-color: #fcfdff;
 }
 .img-perfil {
-  width: 110px;
+  width: 180px;
+  height: 180px;
 }
 .nome {
   font-family: "IBM Plex Sans", sans-serif;
@@ -55,18 +61,19 @@ main {
   font-weight: 400;
   color: #626265;
   margin-top: 40px;
+  font-size: 20px;
 }
 .valor-cliente {
   color: #36363a;
   font-weight: 800;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 18px;
 }
 .btn-salvar {
   color: #ffff;
   background-color: #36b236;
-  padding: 12px 48px 12px 48px;
+  padding: 20px;
   width: 200px;
   text-transform: uppercase;
   border-radius: 5px;
@@ -87,9 +94,10 @@ main {
   font-size: 32px;
   font-weight: 600;
   color: #5a5a66;
+  margin-bottom: 12px;
 }
 hr {
-  margin-top: 20px;
+  margin-bottom: 14px;
   color: #f6f7f7;
 }
 .formulario-1 {
@@ -97,7 +105,7 @@ hr {
 }
 .item-nome {
   padding: 16px;
-  color: #5a5a66;
+  color: #bfbfcc;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -107,7 +115,7 @@ hr {
 }
 .item-link {
   padding: 16px;
-  color: #5a5a66;
+  color: #bfbfcc;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -120,6 +128,11 @@ hr {
   margin-top: 40px;
   font-size: 32px;
 }
+
+.linha-planj {
+  margin: 16px 0px;
+}
+
 .prf {
   color: #787880;
   font-family: "IBM Plex Sans", sans-serif;
