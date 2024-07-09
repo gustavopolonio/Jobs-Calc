@@ -11,23 +11,40 @@ body {
 header {
   background-color: #41414c;
   padding: 20px;
-}
-main {
   display: flex;
+  align-items: center;
+  height: 88px;
 }
+
+.div-pg-3 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1220px;
+  position: relative;
+}
+
 .seta {
-  width: 18px;
   color: #bfbfcc;
-  margin-top: 20px;
-  margin-left: 100px;
+  padding-left: 158px;
 }
 .titulo-1 {
+  position: absolute;
+  left: 580px;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   color: #bfbfcc;
-  text-align: center;
-  margin-top: -26px;
+  position: absolute;
+  left: 580px;
+  top: 2px;
 }
+
+main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
 .container-1 {
   margin: 150px 50px 0px 160px;
 }

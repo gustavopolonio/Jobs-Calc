@@ -1,0 +1,28 @@
+@media (max-width: 1120px) {
+  .inicio-projeto {
+    height: 450px;
+  }
+
+  .cabeçalho-1,
+  .cabeçalho-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 960px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .numero,
+  .local,
+  .entrega,
+  .preco {
+    text-align: center;
+  }
+  .icones-tabela {
+    padding: 20px 0;
+    text-align: center;
+  }
+}

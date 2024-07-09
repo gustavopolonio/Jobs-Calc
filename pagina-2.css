@@ -8,30 +8,40 @@
 body {
   background-color: #f6f7f7;
 }
+
 header {
   background-color: #41414c;
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 88px;
+}
+
+.div-pg-1 {
   width: 100%;
   margin: 0 auto;
+  max-width: 1150px;
+  position: relative;
 }
+
 .seta {
-  width: 18px;
   color: #bfbfcc;
-  margin-top: 20px;
-  margin-left: 100px;
+  padding-left: 160px;
 }
+
 .titulo-1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   color: #bfbfcc;
-  text-align: center;
-  margin-top: -26px;
+  position: absolute;
+  left: 630px;
+  top: 2px;
 }
 main {
   display: flex;
-  margin-bottom: 70px;
-  width: 100%;
   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1150px;
 }
 .info-cliente {
   margin: 70px 0px 0px 161px;

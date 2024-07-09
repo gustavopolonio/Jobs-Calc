@@ -10,23 +10,34 @@ body {
 }
 header {
   background-color: #41414c;
-  padding: 20px;
+  height: 88px;
+  display: flex;
+  align-items: center;
 }
+
+.div-pg-4 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
 main {
   display: flex;
+  width: 100%;
+  margin: 0 auto;
 }
 .seta {
-  width: 18px;
   color: #bfbfcc;
-  margin-top: 20px;
-  margin-left: 100px;
+  padding-left: 130px;
 }
 .titulo-1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   color: #bfbfcc;
-  text-align: center;
-  margin-top: -26px;
+  position: absolute;
+  left: 653px;
+  top: 2px;
 }
 .container-1 {
   margin: 150px 50px 0px 160px;
