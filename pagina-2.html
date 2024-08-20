@@ -8,24 +8,24 @@
   </head>
   <body>
     <header>
-    <div class="div-pg-1">
-    <a href="index.html" target="_blank">
-      <img src="imagens/arrow.png" alt="imagem-seta" class="seta" />
-    </a>
-      <h2 class="titulo-1">Meu perfil</h2>
-    </div>
+      <div class="div-pg-1">
+        <a href="index.html" target="_blank">
+          <img src="imagens/arrow.png" alt="imagem-seta" class="seta" />
+        </a>
+        <h2 class="titulo-1">Meu perfil</h2>
+      </div>
     </header>
     <main>
       <div class="info-cliente">
         <img
-          src="imagens/Ellipse.png"
+          src="imagens/mulher.png"
           alt="imagem-cliente"
           class="img-perfil"
         />
         <h2 class="nome">Jaqueline</h2>
         <p class="descricao">
          O Valor da sua hora é
-          <div class="valor-cliente">R$ 75,00 reais</div>
+          <span class="valor-cliente">R$ 75,00 reais</span>
         </p>
         <button class="btn-salvar">salvar dados</button>
       </div>
@@ -33,38 +33,42 @@
       <h2 class="dado">Dados do Perfil</h2>
       <hr>
       <form class="formulario-1">
-        <span class="separado-1"><input type="text" id="primeiro-nome" placeholder="Nome" class="item-nome"></span>
+       
+        <div class="acesso">
+        <input type="text" id="primeiro-nome" placeholder="Nome" class="item-nome">
      
         <input type="text" id="link-foto" placeholder="Link da Foto" class="item-link">
-      </form>
+      </div>
+     
   
       <h2 class="planj">Planejamento</h2>
       <hr class="linha-planj">
       <div class="bloco-1">
       <div class="bl-1">
       <p class="prf">Quanto eu <br> quero ganhar por mês?</p>
-       <form>
+       
         <input type="text" id="campo-1" class="item-link" placeholder="R$">
-       </form>
+      
       </div>
       <div class="bl-2">
        <p class="prf">Quantas horas <br> quero trabalhar por dia?</p>
-       <form >
+      
         <input type="text" id="campo-2" class="item-link">
-       </form>
+      
       </div>
       </div>
       <div class="bloco-2">
         <div class="bl-3">
         <p class="prf">Quantos dias quero <br> trabalhar por semana</p>
-      <form>
+     
         <input type="text" id="campo-3" class="item-link">
-      </form>
+     
         </div>
         <div class="bl-4">
         <p class="prf">Quantas semanas <br> por ano você quer tirar férias</p>
-      <form>
+      
         <input type="text" id="campo-4" class="item-link">
+      
       </form>
         </div>
     </div>

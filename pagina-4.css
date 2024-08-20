@@ -22,23 +22,24 @@ header {
   position: relative;
 }
 
-main {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-}
 .seta {
-  color: #bfbfcc;
-  padding-left: 130px;
 }
 .titulo-1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   color: #bfbfcc;
   position: absolute;
-  left: 653px;
-  top: 2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
+
+main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .container-1 {
   margin: 150px 50px 0px 160px;
 }

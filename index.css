@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #f0f2f5;
+}
 .inicio-projeto {
   background-color: #41414c;
-  height: 250px;
+  height: 300px;
 }
 
 .div-de-separacao-inicio {
@@ -23,13 +25,17 @@
   padding-top: 30px;
 }
 
+.imagens-calculadora {
+  display: flex;
+  align-items: center;
+}
+
 .imagem-calculadora {
   padding-right: 20px;
 }
 
 .div-do-icone {
   display: flex;
-  margin-top: 20px;
   gap: 20px;
 }
 
@@ -50,6 +56,14 @@
   padding-right: 20px;
   font-family: "IBM Plex Sans", sans-serif;
   color: #ffff;
+}
+
+.imagem-jaqueline {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2.5px solid #f1971c;
+  object-fit: cover;
 }
 
 .legenda-perfil {
@@ -89,18 +103,18 @@ hr {
   font-size: 15px;
 }
 
-.botao-job {
+.botao-numeros {
   background-color: #f1972c;
   font-family: "IBM Plex Sans", sans-serif;
   text-transform: uppercase;
   color: #ffff;
   font-weight: bold;
   padding: 14px;
-  border: solid 1px #ffff;
   border-radius: 6px;
   display: flex;
   align-items: center;
   gap: 16pxpx;
+  height: 56px;
 }
 
 .link-separado {
@@ -114,13 +128,17 @@ hr {
   max-width: 1100px;
 }
 
+.teste {
+  margin: 12px;
+  border-radius: 5px;
+  background: rgba(252 253 255/16%);
+}
+
 .mais {
   font-size: 25px;
   font-weight: 600;
-  border: solid 1px #ffff;
-  padding: 0px 8px;
-  border-radius: 5px;
-  margin-right: 16px;
+  color: #fcfdff;
+  padding: 8px;
 }
 
 table {
@@ -135,32 +153,38 @@ table {
 
 tbody {
   width: 100%;
-  margin-top: -30px;
+  margin-top: -85px;
 }
 
 tr {
   background-color: #ffff;
   width: 100%;
+  height: 96px;
   display: table;
   margin: 20px 0px;
+  border-radius: 5px;
+  border: 1px solid #e1e3e5;
+  padding: 20px;
 }
 
 .numero {
   color: #bfbfcc;
-  padding: 35px 32px;
   font-size: 14px;
   font-weight: 600;
+  padding-left: 16px;
+  width: 5%;
 }
 
 .local {
   color: rgb(95, 95, 95);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
-  padding: 30px 70px;
+  width: 22%;
 }
 
 .entrega {
   margin: 40px 30px;
+  width: 22%;
 }
 
 .prazo-valor {
@@ -179,6 +203,7 @@ tr {
 }
 
 .preco {
+  width: 19%;
 }
 
 .ponto-1 {
@@ -190,7 +215,7 @@ tr {
 .tempo {
   font-size: 12px;
   font-weight: 500;
-  padding: 35px 60px;
+  width: 21%;
 }
 
 .formato {
@@ -213,14 +238,19 @@ tr {
 }
 
 .icones-tabela {
-  padding: 0 20px;
+  display: flex;
+  padding: 0 50px;
+  width: 11%;
 }
 
 button {
-  background-color: transparent;
-  border-color: #e1e3e5;
+  margin: 0px 6px;
+  background-color: #fcfdff;
+  border: solid 1px #e1e3e5;
+  border-radius: 5px;
 }
 
 .itens-tabela {
-  width: 30px;
+  width: 24px;
+  margin: 8px;
 }

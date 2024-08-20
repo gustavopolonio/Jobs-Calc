@@ -24,8 +24,6 @@ header {
 }
 
 .seta {
-  color: #bfbfcc;
-  padding-left: 160px;
 }
 
 .titulo-1 {
@@ -33,44 +31,47 @@ header {
   font-size: 16px;
   color: #bfbfcc;
   position: absolute;
-  left: 630px;
-  top: 2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 main {
   display: flex;
-  align-items: center;
   width: 100%;
   margin: 0 auto;
   max-width: 1150px;
+  padding-top: 64px;
+  gap: 127px;
 }
 .info-cliente {
-  margin: 70px 0px 0px 161px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: solid 2px #e1e3e5;
-  width: 352px;
-  height: 556px;
   align-items: center;
   border-radius: 5px;
   background-color: #fcfdff;
+  padding: 62px 76px;
 }
 .img-perfil {
   width: 180px;
   height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f1972c;
 }
 .nome {
   font-family: "IBM Plex Sans", sans-serif;
   color: #5a5a66;
   font-size: 28px;
   font-weight: 600;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 .descricao {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   color: #626265;
-  margin-top: 40px;
+  margin-top: 64px;
   font-size: 20px;
 }
 .valor-cliente {
@@ -78,7 +79,8 @@ main {
   font-weight: 800;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
-  margin-left: 18px;
+  display: block;
+  text-align: center;
 }
 .btn-salvar {
   color: #ffff;
@@ -90,14 +92,12 @@ main {
   font-size: 14px;
   font-weight: 700;
   border: none;
-  margin-left: 16px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 .pedaço-1 {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  margin-left: 70px;
+  flex: 1;
 }
 .dado {
   font-family: "IBM Plex Sans", sans-serif;
@@ -113,12 +113,20 @@ hr {
 .formulario-1 {
   margin-top: 20px;
 }
+
+.acesso {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
 .item-nome {
   padding: 16px;
   color: #bfbfcc;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  width: 100%;
 }
 .separado-1 {
   margin-right: 20px;
@@ -129,6 +137,7 @@ hr {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  width: 100%;
 }
 
 .planj {
@@ -157,10 +166,12 @@ hr {
 .bl-1 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .bl-2 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .bloco-2 {
   display: flex;
@@ -169,8 +180,10 @@ hr {
 .bl-3 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .bl-4 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
